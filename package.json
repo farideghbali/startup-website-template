@@ -1,10 +1,10 @@
 {
-  "name": "tailwindcss-landing",
+  "name": "salvia-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "tailwind": "tailwindcss -i ./tailwind-code/input.css -o ./css/output.css --watch"
   },
   "author": "",
