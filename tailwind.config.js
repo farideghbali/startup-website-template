@@ -1,7 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./index.html"], darkMode: "class", theme: {
+    content: ["./index.html"], darkMode: "class",
+    theme: {
         extend: {
+            backgroundImage: theme => ({
+                'ModelA': "url('../img/bg-help.png')",
+                'ModelY': "url('../img/bg-support-dark.svg')",
+            }),
             colors: {
                 "slate-800": "rgb(29,33,68)",
                 "backgrount-input": "rgb(36,43,81)",
