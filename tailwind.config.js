@@ -4,8 +4,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: theme => ({
-                'ModelA': "url('../img/bg-help.png')",
-                'ModelY': "url('../img/bg-support-dark.svg')",
+                'ModelA': "url('/img/bg-help.png')",
+                'ModelY': "url('/img/bg-support-dark.svg')",
             }),
             colors: {
                 "slate-800": "rgb(29,33,68)",
